@@ -1,0 +1,161 @@
+
+
+
+.header-section {
+    max-width: 1250px;
+    /* background-color: red; */
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+.nav-container {
+    /* border: 2px solid red; */
+    min-height: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+}
+  .nav-container img {
+    width: 90px;
+    object-fit: cover;
+}
+
+.nav-container img {
+    width: 90px;
+    object-fit: cover;
+}
+.special{
+    color: #FF5400;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.items-container a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #424247;
+    
+}
+.home{
+    color: #FF5400;
+}
+
+
+/* ******************************* extra sectoion*************** */
+.testimortal{
+    padding: 40px 0;
+    /* background: #f1f1f1; */
+    text-align: center;
+    /* color: #434343; */
+}
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+
+}
+.border{
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.testimortal{
+    background: #fff;
+    padding: 30px;
+
+}
+.testimortal img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars{
+    color: #6ab04c;
+    margin-bottom: 20px;
+
+}
+
+/* extra section end */
+
+/* footer section */
+footer{
+
+    /* width: 1440px; */
+    /* height: 502px; */
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+.foter-img{
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.social-links a{
+    font-size: 2rem;
+    color: black;
+    border-radius: 50px;
+}
+
+
+
+
+ /* ********************Responsive design *************************************/
+ @media screen and (max-width: 600px) {
+    .header-section {
+      /* flex-direction: column; */
+      display:none; 
+      margin-left: 50px;
+    }
+    .items-container {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .col{
+        flex:100%;
+        max-width: 100%;
+    }
+   
+      
+ }
