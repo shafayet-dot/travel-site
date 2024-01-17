@@ -424,6 +424,7 @@ footer{
     .items-container i{
         display: flex;
         font-size: 50px;
+        justify-content: space-around;
     }
     .banner{
         justify-content: center;
