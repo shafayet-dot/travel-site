@@ -157,14 +157,14 @@ select{
 .card-two{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    gap: 10px;
     margin-top: 15px;
 }
 
 .card-three{
     display:grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 20px;
+    gap: 10px;
     margin-top: 15px;
 }
 /* ******************************* grid card section ***************** */
